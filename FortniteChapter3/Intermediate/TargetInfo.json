@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FortniteChapter3",
+			"Path": "D:\\College Stuff\\Unreal\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FortniteChapter3Editor",
+			"Path": "D:\\College Stuff\\Unreal\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

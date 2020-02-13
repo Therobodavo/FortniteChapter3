@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\College Stuff\\Unreal\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3\\FortniteChapter3.Build.cs",
+		"D:\\College Stuff\\Unreal\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3.Target.cs",
+		"D:\\College Stuff\\Unreal\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3Editor.Target.cs"
+	],
+	"EngineVersion": "4.24.2"
+}
