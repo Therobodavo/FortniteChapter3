@@ -1,0 +1,882 @@
+﻿Log file open, 02/12/20 22:18:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FortniteChapter3
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.092397
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11100242
+LogInit: Engine Version: 4.24.2-11100242+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jan 24 2020 02:05:53
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/UE/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.13-03.18.14:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:715][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:719][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.13-03.18.14:720][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.13-03.18.14:721][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.13-03.18.14:721][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.13-03.18.14:721][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.13-03.18.14:724][  0]LogHAL: Display: Platform has ~ 16 GB [17059282944 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.13-03.18.14:724][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.13-03.18.14:724][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.13-03.18.14:724][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.13-03.18.14:725][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.13-03.18.14:726][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Config/Windows/Engine.ini]
+[2020.02.13-03.18.14:726][  0]LogInit: Computer: MSI
+[2020.02.13-03.18.14:726][  0]LogInit: User: kirby
+[2020.02.13-03.18.14:726][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.13-03.18.14:726][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.13-03.18.14:726][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.13-03.18.14:726][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.13-03.18.14:726][  0]LogMemory: Process Physical Memory: 106.02 MB used, 106.02 MB peak
+[2020.02.13-03.18.14:726][  0]LogMemory: Process Virtual Memory: 100.78 MB used, 100.78 MB peak
+[2020.02.13-03.18.14:726][  0]LogMemory: Physical Memory: 10686.56 MB used,  5582.44 MB free, 16269.00 MB total
+[2020.02.13-03.18.14:726][  0]LogMemory: Virtual Memory: 5103.36 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.02.13-03.18.15:581][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.13-03.18.15:615][  0]LogInit: Using OS detected language (en-US).
+[2020.02.13-03.18.15:615][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.13-03.18.15:617][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.13-03.18.15:799][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.13-03.18.15:860][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.13-03.18.15:860][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.13-03.18.16:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.13-03.18.16:185][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.02.13-03.18.16:185][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.02.13-03.18.16:185][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.13-03.18.17:108][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.02.13-03.18.17:108][  0]LogD3D11RHI:       8081/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.13-03.18.17:130][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.02.13-03.18.17:130][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.13-03.18.17:133][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.13-03.18.17:133][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.13-03.18.17:133][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.13-03.18.17:190][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.13-03.18.17:190][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.13-03.18.17:190][  0]LogWindows: EnumDisplayDevices:
+[2020.02.13-03.18.17:191][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.02.13-03.18.17:191][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.02.13-03.18.17:192][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.02.13-03.18.17:192][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.13-03.18.17:192][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.13-03.18.17:193][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.13-03.18.17:193][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.13-03.18.17:194][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.02.13-03.18.17:194][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.02.13-03.18.17:194][  0]LogD3D11RHI:   Driver Version: 416.16 (internal:25.21.14.1616, unified:416.16)
+[2020.02.13-03.18.17:194][  0]LogD3D11RHI:      Driver Date: 10-2-2018
+[2020.02.13-03.18.17:194][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2020.02.13-03.18.17:251][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.02.13-03.18.17:251][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.13-03.18.17:271][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.02.13-03.18.17:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.02.13-03.18.17:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.02.13-03.18.17:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.02.13-03.18.17:768][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.02.13-03.18.17:768][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.02.13-03.18.17:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.13-03.18.17:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.02.13-03.18.17:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.02.13-03.18.17:804][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.02.13-03.18.17:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.02.13-03.18.17:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.02.13-03.18.17:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.02.13-03.18.17:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.02.13-03.18.17:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.02.13-03.18.17:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.02.13-03.18.17:870][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.13-03.18.17:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.02.13-03.18.17:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.02.13-03.18.17:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.02.13-03.18.17:896][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.13-03.18.17:900][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.13-03.18.17:934][  0]LogShaderCompilers: Guid format shader working directory is -62 characters bigger than the processId version (D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Intermediate/Shaders/WorkingDirectory/9240/).
+[2020.02.13-03.18.17:934][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kirby/AppData/Local/Temp/UnrealShaderWorkingDir/3D8BDBFD406579736CF283B90F839779/'.
+[2020.02.13-03.18.17:934][  0]LogXGEController: Cleaning working directory: C:/Users/kirby/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.13-03.18.17:935][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.13-03.18.17:935][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.13-03.18.17:935][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.13-03.18.18:737][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.13-03.18.18:831][  0]LogDerivedDataCache: Loaded boot cache 0.09s 82MB C:/Users/kirby/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.13-03.18.18:831][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kirby/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.02.13-03.18.18:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.13-03.18.18:832][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.13-03.18.18:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.13-03.18.18:832][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.13-03.18.18:847][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.13-03.18.18:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.13-03.18.18:847][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.13-03.18.18:849][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kirby/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.13-03.18.18:849][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.13-03.18.18:849][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.13-03.18.18:899][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.13-03.18.18:903][  0]LogSlate: Using FreeType 2.10.0
+[2020.02.13-03.18.18:904][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.13-03.18.18:972][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.02.13-03.18.19:290][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.13-03.18.19:463][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.13-03.18.19:463][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.13-03.18.19:463][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.13-03.18.19:463][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.13-03.18.19:463][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.13-03.18.19:478][  0]LogNetVersion: FortniteChapter3 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3523104597)
+[2020.02.13-03.18.20:790][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.060509 seconds
+[2020.02.13-03.18.20:798][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.02.13-03.18.20:798][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.02.13-03.18.20:798][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.13-03.18.21:261][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.13-03.18.21:264][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.13-03.18.21:490][  0]SourceControl: Source control is disabled
+[2020.02.13-03.18.21:490][  0]SourceControl: Source control is disabled
+[2020.02.13-03.18.21:492][  0]SourceControl: Source control is disabled
+[2020.02.13-03.18.21:493][  0]SourceControl: Source control is disabled
+[2020.02.13-03.18.21:495][  0]SourceControl: Source control is disabled
+[2020.02.13-03.18.21:598][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.13-03.18.21:612][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.13-03.18.21:612][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.13-03.18.21:707][  0]LogOcInput: OculusInput pre-init called
+[2020.02.13-03.18.21:717][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.13-03.18.21:717][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.13-03.18.21:800][  0]LogEngine: Initializing Engine...
+[2020.02.13-03.18.21:801][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.13-03.18.21:802][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.13-03.18.22:188][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.13-03.18.22:196][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.13-03.18.22:269][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.13-03.18.22:269][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.13-03.18.22:270][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.13-03.18.22:270][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.13-03.18.22:360][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: Channel Order:
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 5: BackRight
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.02.13-03.18.22:361][  0]LogAudioMixer: Display: 7: SideRight
+[2020.02.13-03.18.22:472][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.02.13-03.18.22:478][  0]LogInit: FAudioDevice initialized.
+[2020.02.13-03.18.22:478][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.13-03.18.22:570][  0]LogDerivedDataCache: Saved boot cache 0.09s 82MB C:/Users/kirby/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.13-03.18.22:576][  0]LogInit: Texture streaming: Enabled
+[2020.02.13-03.18.22:591][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.13-03.18.22:591][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.13-03.18.22:604][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.13-03.18.22:664][  0]LogInit: Transaction tracking system initialized
+[2020.02.13-03.18.22:676][  0]BlueprintLog: New page: Editor Load
+[2020.02.13-03.18.22:723][  0]LocalizationService: Localization service is disabled
+[2020.02.13-03.18.23:057][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/' took 0.01s
+[2020.02.13-03.18.23:057][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.13-03.18.23:057][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.13-03.18.23:927][  0]SourceControl: Source control is disabled
+[2020.02.13-03.18.24:099][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.13-03.18.28:802][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.02.13-03.18.28:805][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.13-03.18.28:811][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.13-03.18.31:603][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.02.13-03.18.31:604][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.13-03.18.31:609][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.13-03.18.31:647][  0]LightingResults: New page: Lighting Build
+[2020.02.13-03.18.31:648][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.18.31:648][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.18.31:649][  0]MapCheck: New page: Map Check
+[2020.02.13-03.18.31:649][  0]LightingResults: New page: Lighting Build
+[2020.02.13-03.18.31:708][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2020.02.13-03.18.32:044][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.13-03.18.32:060][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.13-03.18.32:110][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.02.13-03.18.32:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.13-03.18.32:111][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
+[2020.02.13-03.18.32:111][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.465
+[2020.02.13-03.18.32:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.18.32:231][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.18.32:238][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.18.32:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.18.32:257][  0]LogCollectionManager: Loaded 0 collections in 0.002889 seconds
+[2020.02.13-03.18.32:271][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Collections/' took 0.00s
+[2020.02.13-03.18.32:271][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/Developers/kirby/Collections/' took 0.00s
+[2020.02.13-03.18.32:271][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/Collections/' took 0.00s
+[2020.02.13-03.18.32:271][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3017 classes and 719 folders.
+[2020.02.13-03.18.32:277][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.13-03.18.32:383][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.13-03.18.32:388][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.02.13-03.18.32:438][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.13-03.18.32:445][  0]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.13-03.18.32:509][  0]LogRenderer: Reallocating scene render targets to support 964x432 Format 10 NumSamples 1 (Frame:1).
+[2020.02.13-03.18.32:665][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.02.13-03.18.32:665][  0]LogLoad: (Engine Initialization) Total time: 21.00 seconds
+[2020.02.13-03.18.32:665][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.13-03.18.32:738][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.13-03.18.32:758][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.13-03.18.32:880][  1]LogAssetRegistry: Asset discovery search completed in 13.9085 seconds
+[2020.02.13-03.18.32:885][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2020.02.13-03.18.34:693][102]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.13-03.18.34:722][102]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/HUD.HUD
+[2020.02.13-03.18.35:000][102]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.02.13-03.18.36:363][102]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.13-03.18.39:839][287]LogSlate: Window 'HUD' being destroyed
+[2020.02.13-03.18.39:858][287]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.18.39:858][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.18.39:865][287]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.18.39:865][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.18.40:715][324]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.13-03.18.40:731][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.18.40:731][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.13-03.18.40:731][324]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 12, 2020, 5:18:40 PM)
+[2020.02.13-03.18.40:732][324]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.13-03.18.40:734][324]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.02.13-03.18.40:734][324]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.13-03.18.40:756][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021692s)
+[2020.02.13-03.18.40:758][324]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.13-03.18.40:758][324]LogPlayLevel: PIE: World Init took: (0.001839s)
+[2020.02.13-03.18.40:758][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023976s)
+[2020.02.13-03.18.40:832][324]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.13-03.18.40:835][324]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.13-03.18.40:835][324]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.13-03.18.40:835][324]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Is Default: Yes
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: Channel Order:
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: 1: FrontRight
+[2020.02.13-03.18.40:921][324]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.13-03.18.40:922][324]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.13-03.18.40:922][324]LogAudioMixer: Display: 4: BackLeft
+[2020.02.13-03.18.40:922][324]LogAudioMixer: Display: 5: BackRight
+[2020.02.13-03.18.40:922][324]LogAudioMixer: Display: 6: SideLeft
+[2020.02.13-03.18.40:922][324]LogAudioMixer: Display: 7: SideRight
+[2020.02.13-03.18.41:030][324]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.02.13-03.18.41:032][324]LogInit: FAudioDevice initialized.
+[2020.02.13-03.18.41:045][324]LogLoad: Game class is 'FortniteChapter3GameMode'
+[2020.02.13-03.18.41:048][324]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.02.12-22.18.41
+[2020.02.13-03.18.41:048][324]LogWorld: Bringing up level for play took: 0.002483
+[2020.02.13-03.18.41:048][324]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.02.13-03.18.41:050][324]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.02.13-03.18.41:052][324]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.13-03.18.41:054][324]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.488
+[2020.02.13-03.18.41:054][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.18.49:815][828]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.18.49:815][828]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.18.49:815][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.18.49:815][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.18.49:815][828]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.13-03.18.49:815][828]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.18.49:815][828]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.18.49:816][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.18.49:825][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.13-03.18.49:825][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.18.49:830][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.18.49:863][828]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.18.49:873][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.18.49:937][828]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.02.13-03.18.49:955][829]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.02.13-03.18.51:322][904]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/HUD.HUD
+[2020.02.13-03.19.07:799][776]LogSlate: Window 'HUD' being destroyed
+[2020.02.13-03.19.07:827][776]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.19.07:827][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.19.07:830][776]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.19.07:830][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.19.08:633][807]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.19.09:301][808]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.13-03.19.12:288][959]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.02.13-03.19.12:309][959]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.19.12:309][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.19.13:312][  7]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/HUD.HUD
+[2020.02.13-03.19.39:854][270]BlueprintLog: New page: Compile HUD
+[2020.02.13-03.19.40:127][270]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.02.13-03.19.40:554][283]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/HUD3CF018574A147239723B5CAAD63E1260.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/HUD.uasset'
+[2020.02.13-03.19.40:582][283]AssetCheck: New page: Asset Save: HUD
+[2020.02.13-03.19.40:583][283]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/HUD.HUD
+[2020.02.13-03.19.41:435][324]LogSlate: Window 'HUD' being destroyed
+[2020.02.13-03.19.41:452][324]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.19.41:452][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.19.41:478][324]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.19.41:478][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.19.42:206][359]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.13-03.19.42:221][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.19.42:221][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.13-03.19.42:221][359]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 12, 2020, 5:19:42 PM)
+[2020.02.13-03.19.42:221][359]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.13-03.19.42:233][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012129s)
+[2020.02.13-03.19.42:235][359]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.13-03.19.42:235][359]LogPlayLevel: PIE: World Init took: (0.001507s)
+[2020.02.13-03.19.42:235][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013923s)
+[2020.02.13-03.19.42:272][359]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.02.13-03.19.42:273][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.13-03.19.42:274][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.13-03.19.42:274][359]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.13-03.19.42:274][359]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Is Default: Yes
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: Channel Order:
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 1: FrontRight
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 4: BackLeft
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 5: BackRight
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 6: SideLeft
+[2020.02.13-03.19.42:354][359]LogAudioMixer: Display: 7: SideRight
+[2020.02.13-03.19.42:460][359]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.02.13-03.19.42:461][359]LogInit: FAudioDevice initialized.
+[2020.02.13-03.19.42:470][359]LogLoad: Game class is 'FortniteChapter3GameMode'
+[2020.02.13-03.19.42:473][359]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.02.12-22.19.42
+[2020.02.13-03.19.42:474][359]LogWorld: Bringing up level for play took: 0.002837
+[2020.02.13-03.19.42:474][359]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.02.13-03.19.42:475][359]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.02.13-03.19.42:477][359]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.089
+[2020.02.13-03.19.42:477][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.20.29:319][166]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.20.29:324][166]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.02.13-03.20.29:353][166]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.02.13-03.20.29:353][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.20.29:353][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.20.29:353][166]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.13-03.20.29:353][166]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.20.29:354][166]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.20.29:354][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.20.29:363][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.13-03.20.29:363][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.13-03.20.29:369][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.20.29:400][166]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.13-03.20.29:409][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-03.20.29:413][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.02.13-03.20.29:434][167]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.13-03.20.30:951][252]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.20.43:871][927]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.13-03.21.48:689][852]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.02.13-03.21.48:997][852]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.02.13-03.21.49:636][876]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonCharacterABA00AB240C001F4894AC8BDF927A9AD.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.02.13-03.21.49:670][876]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.02.13-03.21.49:670][876]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.23.01:666][745]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.02.13-03.23.01:948][745]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.02.13-03.23.02:366][761]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonCharacter1BCA73314DFC9C34D1AD68AF55415571.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.02.13-03.23.02:390][761]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.02.13-03.23.02:390][761]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.23.03:198][802]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.02.13-03.23.03:233][802]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.23.03:233][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.23.16:183][118]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.02.13-03.23.24:513][604]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ItemPickup.ItemPickup
+[2020.02.13-03.26.27:791][501]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.26.50:652][562]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.02.13-03.26.50:945][562]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.02.13-03.26.51:346][573]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonCharacter9C32338E4B6644C619FA2EB1EA181E47.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.02.13-03.26.51:374][573]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.02.13-03.26.51:374][573]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.27.10:840][678]BlueprintLog: New page: Compile ItemPickup
+[2020.02.13-03.27.10:888][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.02.13-03.27.12:916][782]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickup486DF3534855665633BB00836AD15F48.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ItemPickup.uasset'
+[2020.02.13-03.27.12:951][782]AssetCheck: New page: Asset Save: ItemPickup
+[2020.02.13-03.27.12:952][782]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ItemPickup.ItemPickup
+[2020.02.13-03.28.48:343][ 79]BlueprintLog: New page: Compile ItemPickup
+[2020.02.13-03.28.48:388][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.02.13-03.28.48:825][ 95]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickup82A005BF47D69342A1E9DD8334C237AC.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ItemPickup.uasset'
+[2020.02.13-03.28.48:849][ 95]AssetCheck: New page: Asset Save: ItemPickup
+[2020.02.13-03.28.48:849][ 95]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ItemPickup.ItemPickup
+[2020.02.13-03.29.42:218][ 26]BlueprintLog: New page: Compile ItemPickup
+[2020.02.13-03.29.42:269][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2020.02.13-03.29.42:697][ 42]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickupEAF1D7254BFDDAF2478528976CA56335.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ItemPickup.uasset'
+[2020.02.13-03.29.42:725][ 42]AssetCheck: New page: Asset Save: ItemPickup
+[2020.02.13-03.29.42:725][ 42]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ItemPickup.ItemPickup
+[2020.02.13-03.30.14:794][754]BlueprintLog: New page: Compile ItemPickup
+[2020.02.13-03.30.14:841][754]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.02.13-03.30.15:190][766]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickupE97385484DB40647CE9FF7BB84D22603.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ItemPickup.uasset'
+[2020.02.13-03.30.15:218][766]AssetCheck: New page: Asset Save: ItemPickup
+[2020.02.13-03.30.15:218][766]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ItemPickup.ItemPickup
+[2020.02.13-03.33.42:499][670]LogUObjectHash: Compacting FUObjectHashTables data took   7.26ms
+[2020.02.13-03.33.42:860][670]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonExampleMap_Auto1AA0BA91E40DF908FB79013A0714042E8.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.02.13-03.33.42:867][670]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.439
+[2020.02.13-03.33.42:867][670]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.439
+[2020.02.13-03.33.42:867][670]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2020.02.13-03.33.42:892][670]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2020.02.13-03.33.42:892][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2020.02.13-03.33.42:966][670]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonCharacter_Auto1E6762A674073154227565E9ED25DB7DA.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2020.02.13-03.33.42:968][670]LogFileHelpers: Auto-saving content packages took 0.101
+[2020.02.13-03.36.32:512][386]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.02.13-03.36.32:838][386]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2020.02.13-03.36.33:270][400]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonCharacter3AEB66854474FB1ED2515FAC9019E2BB.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.02.13-03.36.33:301][400]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.02.13-03.36.33:301][400]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.13-03.36.34:441][456]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.36.34:441][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.36.34:862][476]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.02.13-03.36.34:885][476]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-03.36.34:885][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-03.36.36:575][578]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.02.13-03.36.37:874][578]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.13-03.36.39:026][578]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPersonCPP/Blueprints/ItemPickup.ItemPickup
+[2020.02.13-03.36.40:778][578]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.02.13-03.36.40:814][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.02.13-03.36.40:844][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.02.13-03.36.52:227][383]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/ItemPickupUI.ItemPickupUI
+[2020.02.13-03.40.25:623][ 94]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.13-03.41.24:921][736]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.13-03.42.11:080][238]BlueprintLog: New page: Compile ItemPickupUI
+[2020.02.13-03.42.11:353][238]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.02.13-03.42.11:738][251]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickupUI561A4C294BC506EDC7DE45B5CD489D78.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ItemPickupUI.uasset'
+[2020.02.13-03.42.11:769][251]AssetCheck: New page: Asset Save: ItemPickupUI
+[2020.02.13-03.42.11:770][251]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/ItemPickupUI.ItemPickupUI
+[2020.02.13-03.44.42:214][697]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.13-03.46.10:923][749]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.02.13-03.46.11:196][749]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ThirdPersonExampleMap_Auto2C4B84AA34BD397A020896C979BB3F958.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.02.13-03.46.11:203][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.314
+[2020.02.13-03.46.11:203][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.314
+[2020.02.13-03.46.11:203][749]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ItemPickupUI] ([1] browsable assets)...
+[2020.02.13-03.46.11:203][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ItemPickupUI]
+[2020.02.13-03.46.11:226][749]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickupUI_Auto264C54E3D4F7C2ABD5B095688D2D62B7E.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ItemPickupUI_Auto2.uasset'
+[2020.02.13-03.46.11:227][749]LogFileHelpers: Auto-saving content packages took 0.025
+[2020.02.13-03.56.11:741][652]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.02.13-03.56.11:744][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.054
+[2020.02.13-03.56.11:744][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ItemPickupUI] ([1] browsable assets)...
+[2020.02.13-03.56.11:744][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ItemPickupUI]
+[2020.02.13-03.56.11:770][652]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickupUI_Auto37CD6B4674CCE1ED513F453900D6E53F4.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ItemPickupUI_Auto3.uasset'
+[2020.02.13-03.56.11:772][652]LogFileHelpers: Auto-saving content packages took 0.028
+[2020.02.13-03.58.17:666][433]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.13-04.02.04:696][665]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.13-04.03.48:486][981]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.13-04.06.01:624][843]BlueprintLog: New page: Compile ItemPickupUI
+[2020.02.13-04.06.01:670][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.02.13-04.06.02:193][862]LogSavePackage: Moving 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Saved/ItemPickupUICC2548EA46716A47DCB3FD8DE31473BD.tmp' to 'D:/Documents/College Stuff/College Stuff/4th Year/Gameplay and Prototyping/Jam 4/Fortnite 3/FortniteChapter3/Content/ThirdPersonCPP/Blueprints/ItemPickupUI.uasset'
+[2020.02.13-04.06.02:221][862]AssetCheck: New page: Asset Save: ItemPickupUI
+[2020.02.13-04.06.02:221][862]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/ItemPickupUI.ItemPickupUI
+[2020.02.13-04.06.03:716][934]LogSlate: Window 'ItemPickupUI' being destroyed
+[2020.02.13-04.06.03:759][934]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-04.06.03:760][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-04.06.03:794][934]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.02.13-04.06.03:794][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.13-04.23.26:834][765]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter

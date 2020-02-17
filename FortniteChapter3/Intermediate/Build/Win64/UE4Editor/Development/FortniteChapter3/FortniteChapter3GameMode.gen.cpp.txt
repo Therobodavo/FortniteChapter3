@@ -1,9 +1,9 @@
-D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Definitions.FortniteChapter3.h
-C:\Program Files (x86)\UE\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files (x86)\UE\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Source\FortniteChapter3/FortniteChapter3GameMode.h
-C:\Program Files (x86)\UE\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files (x86)\UE\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files (x86)\UE\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files (x86)\UE\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-d:\documents\college stuff\college stuff\4th year\gameplay and prototyping\jam 4\fortnite 3\fortnitechapter3\intermediate\build\win64\ue4editor\inc\fortnitechapter3\FortniteChapter3GameMode.generated.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Definitions.FortniteChapter3.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/FortniteChapter3GameMode.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Inc\FortniteChapter3\FortniteChapter3GameMode.generated.h
