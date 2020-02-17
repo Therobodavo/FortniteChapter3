@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FortniteChapter3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{186FFB61-F8C8-4472-BE6D-A1A13E274D44}</UniqueIdentifier>
+      <UniqueIdentifier>{7BAB7A54-03E8-4BC0-902B-7BF34BA4B749}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FortniteChapter3.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FA85BD39-F7C3-47E3-B268-E4100F9A6461}</UniqueIdentifier>
+      <UniqueIdentifier>{BDA131B6-D52B-40C7-827B-7F2E0F51E27F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FortniteChapter3">
-      <UniqueIdentifier>{1D8F19A2-50BA-42E0-88F5-80DF76A11CE0}</UniqueIdentifier>
+      <UniqueIdentifier>{DD9F3A54-D799-47E3-8D73-E2EED5646DC8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FortniteChapter3\BaseEnemy.cpp">
+      <Filter>Source\FortniteChapter3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteChapter3\BaseEnemy.h">
+      <Filter>Source\FortniteChapter3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FortniteChapter3\EnemySpawner.cpp">
+      <Filter>Source\FortniteChapter3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteChapter3\EnemySpawner.h">
+      <Filter>Source\FortniteChapter3</Filter>
+    </ClInclude>
     <None Include="..\..\Source\FortniteChapter3\FortniteChapter3.Build.cs">
       <Filter>Source\FortniteChapter3</Filter>
     </None>
@@ -51,6 +63,12 @@
       <Filter>Source\FortniteChapter3</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FortniteChapter3\FortniteChapter3GameMode.h">
+      <Filter>Source\FortniteChapter3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FortniteChapter3\MainInstance.cpp">
+      <Filter>Source\FortniteChapter3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteChapter3\MainInstance.h">
       <Filter>Source\FortniteChapter3</Filter>
     </ClInclude>
   </ItemGroup>

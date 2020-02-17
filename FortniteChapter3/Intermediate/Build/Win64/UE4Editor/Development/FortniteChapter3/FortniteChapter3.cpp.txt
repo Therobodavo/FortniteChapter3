@@ -1,2 +1,2 @@
-D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Definitions.FortniteChapter3.h
-d:\documents\college stuff\college stuff\4th year\gameplay and prototyping\jam 4\fortnite 3\fortnitechapter3\source\fortnitechapter3\FortniteChapter3.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Definitions.FortniteChapter3.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\FortniteChapter3.h

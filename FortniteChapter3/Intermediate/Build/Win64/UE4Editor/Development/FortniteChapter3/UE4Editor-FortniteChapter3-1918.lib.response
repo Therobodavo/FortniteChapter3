@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FortniteChapter3-1918.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\BaseEnemy.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\EnemySpawner.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\FortniteChapter3.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\FortniteChapter3Character.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\FortniteChapter3GameMode.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\MainInstance.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\BaseEnemy.gen.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\EnemySpawner.gen.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\FortniteChapter3.init.gen.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\FortniteChapter3Character.gen.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\FortniteChapter3GameMode.gen.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\MainInstance.gen.cpp.obj"
+"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Default.rc2.res"
+/OUT:"D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\UE4Editor-FortniteChapter3-1918.lib"
+/INCLUDE:IMPLEMENT_MODULE_FortniteChapter3
