@@ -251,17 +251,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "D:\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "D:\Windows Kits\10\include\10.0.18362.0\shared"
-/I "D:\Windows Kits\10\include\10.0.18362.0\um"
-/I "D:\Windows Kits\10\include\10.0.18362.0\winrt"
-/I "D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine"
-/Yc"D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"D:\Documents\College Stuff\College Stuff\4th Year\Gameplay and Prototyping\Jam 4\Fortnite 3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/I "D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine"
+/Yc"D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

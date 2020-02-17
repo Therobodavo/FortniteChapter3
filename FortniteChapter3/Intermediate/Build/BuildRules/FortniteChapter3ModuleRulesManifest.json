@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Documents\\College Stuff\\College Stuff\\4th Year\\Gameplay and Prototyping\\Jam 4\\Fortnite 3\\FortniteChapter3\\Source\\FortniteChapter3\\FortniteChapter3.Build.cs",
-		"D:\\Documents\\College Stuff\\College Stuff\\4th Year\\Gameplay and Prototyping\\Jam 4\\Fortnite 3\\FortniteChapter3\\Source\\FortniteChapter3.Target.cs",
-		"D:\\Documents\\College Stuff\\College Stuff\\4th Year\\Gameplay and Prototyping\\Jam 4\\Fortnite 3\\FortniteChapter3\\Source\\FortniteChapter3Editor.Target.cs"
+		"D:\\Graduate\\Year 1-2\\IGME.603\\Fortnite\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3\\FortniteChapter3.Build.cs",
+		"D:\\Graduate\\Year 1-2\\IGME.603\\Fortnite\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3.Target.cs",
+		"D:\\Graduate\\Year 1-2\\IGME.603\\Fortnite\\FortniteChapter3\\FortniteChapter3\\Source\\FortniteChapter3Editor.Target.cs"
 	],
 	"EngineVersion": "4.24.2"
 }
