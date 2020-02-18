@@ -16,6 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FortniteChapter3_Source_FortniteChapter3_EnemySpawner_h_12_SPARSE_DATA
 #define FortniteChapter3_Source_FortniteChapter3_EnemySpawner_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execTakeDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_damage); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeDamage(Z_Param_damage); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSpawnWave) \
 	{ \
 		P_FINISH; \
@@ -34,6 +43,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FortniteChapter3_Source_FortniteChapter3_EnemySpawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_damage); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeDamage(Z_Param_damage); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSpawnWave) \
 	{ \

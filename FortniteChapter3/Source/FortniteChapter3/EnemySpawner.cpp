@@ -14,10 +14,6 @@ AEnemySpawner::AEnemySpawner()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	redMaterial = CreateDefaultSubobject<UMaterial>(TEXT("Red Material"));
-	yellowMaterial = CreateDefaultSubobject<UMaterial>(TEXT("Yellow Material"));
-	greenMaterial = CreateDefaultSubobject<UMaterial>(TEXT("Green Material"));
 }
 
 // Called when the game starts or when spawned
@@ -27,6 +23,10 @@ void AEnemySpawner::BeginPlay()
 	GetRootComponent()->GetChildrenComponents(true, allComponents);
 	for (USceneComponent* c : allComponents)
 	{
+		if (c->ComponentHasTag("Spawner")) 
+		{
+			spawnerMesh = Cast<UStaticMeshComponent>(c);
+		}
 		if (c->ComponentHasTag("SpawnSpot"))
 		{
 			spawnSpotCount++;
@@ -42,17 +42,29 @@ void AEnemySpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (health >= 66 && health <= 100) 
+	if (health >= 66) 
 	{
-
+		if (greenMaterial) 
+		{
+			spawnerMesh->SetMaterial(0,greenMaterial);
+			stage = 1;
+		}
 	}
 	else if (health >= 33 && health < 66) 
 	{
-
+		if (yellowMaterial) 
+		{
+			spawnerMesh->SetMaterial(0, yellowMaterial);
+			stage = 2;
+		}
 	}
 	else if (health > 0 && health < 33) 
 	{
-
+		if (redMaterial) 
+		{
+			spawnerMesh->SetMaterial(0, redMaterial);
+			stage = 3;
+		}
 	}
 	else if (health <= 0) 
 	{
@@ -105,5 +117,10 @@ void AEnemySpawner::SpawnWave()
 	{
 		SpawnEnemy();
 	}
+}
+
+void AEnemySpawner::TakeDamage(float damage)
+{
+	health -= damage;
 }
 

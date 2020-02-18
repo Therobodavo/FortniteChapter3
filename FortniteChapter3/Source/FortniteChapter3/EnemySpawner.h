@@ -37,11 +37,17 @@ public:
 		int spawnSpotCount = 0;
 	UPROPERTY()
 		TArray<USceneComponent*> allComponents;
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		class UMaterialInterface* redMaterial;
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		class UMaterialInterface* yellowMaterial;
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		class UMaterialInterface* greenMaterial;
+	UPROPERTY()
+		int stage = 1;
+	UPROPERTY()
+		UStaticMeshComponent* spawnerMesh;
+	UFUNCTION()
+		void TakeDamage(float damage);
 	
 };
