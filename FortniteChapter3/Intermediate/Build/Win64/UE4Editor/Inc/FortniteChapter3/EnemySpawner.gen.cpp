@@ -23,7 +23,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
-	FORTNITECHAPTER3_API UClass* Z_Construct_UClass_UMainInstance_NoRegister();
 // End Cross Module References
 	void AEnemySpawner::StaticRegisterNativesAEnemySpawner()
 	{
@@ -156,10 +155,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_waveSpawnSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_instance_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_instance;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_health_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_health;
@@ -232,16 +227,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AEnemySpawner_Statics::NewProp_spawnSpotCount = { "spawnSpotCount", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawner, spawnSpotCount), METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_spawnSpotCount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_spawnSpotCount_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::NewProp_waveSpawnSpeed_MetaData[] = {
+		{ "Comment", "//UPROPERTY()\n//class UMainInstance* instance = NULL;\n" },
 		{ "ModuleRelativePath", "EnemySpawner.h" },
+		{ "ToolTip", "UPROPERTY()\nclass UMainInstance* instance = NULL;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemySpawner_Statics::NewProp_waveSpawnSpeed = { "waveSpawnSpeed", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawner, waveSpawnSpeed), METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_waveSpawnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_waveSpawnSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance_MetaData[] = {
-		{ "ModuleRelativePath", "EnemySpawner.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance = { "instance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawner, instance), Z_Construct_UClass_UMainInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::NewProp_health_MetaData[] = {
 		{ "ModuleRelativePath", "EnemySpawner.h" },
@@ -258,7 +249,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_allComponents_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_spawnSpotCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_waveSpawnSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_health,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemySpawner_Statics::StaticCppClassTypeInfo = {
@@ -288,7 +278,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemySpawner, 278599895);
+	IMPLEMENT_CLASS(AEnemySpawner, 2535303592);
 	template<> FORTNITECHAPTER3_API UClass* StaticClass<AEnemySpawner>()
 	{
 		return AEnemySpawner::StaticClass();
