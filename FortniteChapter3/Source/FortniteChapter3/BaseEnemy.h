@@ -23,4 +23,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Variables")
+	float health = 10;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Variables")
+	float speed = 50;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Variables")
+	float damage = 5;
 };

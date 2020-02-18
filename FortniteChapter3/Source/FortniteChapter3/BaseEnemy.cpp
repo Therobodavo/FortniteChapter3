@@ -2,6 +2,7 @@
 
 
 #include "BaseEnemy.h"
+#include "EnemySpawner.h"
 
 // Sets default values
 ABaseEnemy::ABaseEnemy()
@@ -15,7 +16,25 @@ ABaseEnemy::ABaseEnemy()
 void ABaseEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	AEnemySpawner* spawner = Cast<AEnemySpawner>(this->GetOwner());
+	if (spawner->stage == 1) 
+	{
+		health = 100;
+		speed = 50;
+		damage = 2;
+	}
+	else if (spawner->stage == 2) 
+	{
+		health = 150;
+		speed = 60;
+		damage = 5;
+	}
+	else if (spawner->stage == 3) 
+	{
+		health = 200;
+		speed = 75;
+		damage = 8;
+	}
 }
 
 // Called every frame
