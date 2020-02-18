@@ -29,8 +29,8 @@ public:
 		void SpawnWave();
 	UPROPERTY()
 		float health = 100;
-	UPROPERTY()
-		class UMainInstance* instance = NULL;
+	//UPROPERTY()
+		//class UMainInstance* instance = NULL;
 	UPROPERTY()
 		float waveSpawnSpeed = 5;
 	UPROPERTY()

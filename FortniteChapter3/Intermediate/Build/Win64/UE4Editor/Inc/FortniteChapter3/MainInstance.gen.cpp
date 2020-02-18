@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeMainInstance() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainInstance_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "MainInstance.h" },
 		{ "ModuleRelativePath", "MainInstance.h" },
 	};
@@ -142,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeMainInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainInstance, 768981308);
+	IMPLEMENT_CLASS(UMainInstance, 4154876038);
 	template<> FORTNITECHAPTER3_API UClass* StaticClass<UMainInstance>()
 	{
 		return UMainInstance::StaticClass();
