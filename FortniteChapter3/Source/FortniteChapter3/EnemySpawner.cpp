@@ -3,7 +3,7 @@
 
 #include "EnemySpawner.h"
 #include "BaseEnemy.h"
-//#include "MainInstance.h"
+#include "MainInstance.h"
 #include "Engine/World.h"
 #include "Engine.h"
 
@@ -33,8 +33,8 @@ void AEnemySpawner::BeginPlay()
 		}
 	}
 
-	//instance = Cast<UMainInstance>(GetGameInstance());
-	//GetWorldTimerManager().SetTimer(spawnerTimer, this, &AEnemySpawner::SpawnWave, waveSpawnSpeed, true, 0);
+	instance = Cast<UMainInstance>(GetGameInstance());
+	GetWorldTimerManager().SetTimer(spawnerTimer, this, &AEnemySpawner::SpawnWave, waveSpawnSpeed, true, 0);
 }
 
 // Called every frame
@@ -104,7 +104,7 @@ void AEnemySpawner::SpawnEnemy()
 	SpawnInfo.Owner = this;
 
 	//Spawns enemy
-	//GetWorld()->SpawnActor<ABaseEnemy>(instance->enemy1BP->GeneratedClass, Location, Rotation, SpawnInfo);
+	GetWorld()->SpawnActor<ABaseEnemy>(instance->enemy1BP->GeneratedClass, Location, Rotation, SpawnInfo);
 }
 
 void AEnemySpawner::SpawnWave()

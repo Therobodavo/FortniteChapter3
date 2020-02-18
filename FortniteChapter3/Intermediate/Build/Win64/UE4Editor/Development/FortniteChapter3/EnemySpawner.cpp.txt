@@ -3,6 +3,8 @@ D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter
 D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Inc\FortniteChapter3\EnemySpawner.generated.h
 D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\BaseEnemy.h
 D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Inc\FortniteChapter3\BaseEnemy.generated.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\MainInstance.h
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Inc\FortniteChapter3\MainInstance.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Engine.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Core.h
