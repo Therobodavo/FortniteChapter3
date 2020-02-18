@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFortniteChapter3_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD38C8173,
+				0x34CC561C,
 				0xAB13A00A,
 				METADATA_PARAMS(nullptr, 0)
 			};

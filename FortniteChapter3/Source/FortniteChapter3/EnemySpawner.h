@@ -27,27 +27,31 @@ public:
 		void SpawnEnemy();
 	UFUNCTION()
 		void SpawnWave();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner")
+		float max_health = 100;
 	UPROPERTY()
-		float health = 100;
+		float currentHealth = 100;
 	UPROPERTY()
 		class UMainInstance* instance = NULL;
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner")
 		float waveSpawnSpeed = 5;
 	UPROPERTY()
 		int spawnSpotCount = 0;
 	UPROPERTY()
 		TArray<USceneComponent*> allComponents;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner Materials")
 		class UMaterialInterface* redMaterial;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner Materials")
 		class UMaterialInterface* yellowMaterial;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner Materials")
 		class UMaterialInterface* greenMaterial;
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner")
 		int stage = 1;
 	UPROPERTY()
 		UStaticMeshComponent* spawnerMesh;
 	UFUNCTION()
 		void TakeDamage(float damage);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner")
+		bool isMainSpawner = false;
 	
 };

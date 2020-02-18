@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FortniteChapter3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6B09608F-B0E2-4B15-BDAF-B023D03E768F}</UniqueIdentifier>
+      <UniqueIdentifier>{1D8E67F9-2D8C-436F-921B-376A23339404}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FortniteChapter3.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BA2524BE-5463-424C-91D9-5B837A5EAD56}</UniqueIdentifier>
+      <UniqueIdentifier>{9D87B787-12C0-4DC6-8764-2BAD348751D4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FortniteChapter3">
-      <UniqueIdentifier>{A188A572-76F4-4B47-B4FC-2455A4B6EC35}</UniqueIdentifier>
+      <UniqueIdentifier>{9F9B5F1B-EFA3-4B63-8305-B5C8B8BD9ACB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FortniteChapter3\BaseEnemy.cpp">
       <Filter>Source\FortniteChapter3</Filter>

@@ -20,6 +20,8 @@ AEnemySpawner::AEnemySpawner()
 void AEnemySpawner::BeginPlay()
 {
 	Super::BeginPlay();
+	currentHealth = max_health;
+
 	GetRootComponent()->GetChildrenComponents(true, allComponents);
 	for (USceneComponent* c : allComponents)
 	{
@@ -33,6 +35,7 @@ void AEnemySpawner::BeginPlay()
 		}
 	}
 
+	//Spawn a wave every few seconds (based on waveSpawnSpeed)
 	instance = Cast<UMainInstance>(GetGameInstance());
 	GetWorldTimerManager().SetTimer(spawnerTimer, this, &AEnemySpawner::SpawnWave, waveSpawnSpeed, true, 0);
 }
@@ -42,7 +45,8 @@ void AEnemySpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (health >= 66) 
+	//Checks stage based on health
+	if (currentHealth >= (max_health / 3) * 2) 
 	{
 		if (greenMaterial) 
 		{
@@ -50,7 +54,7 @@ void AEnemySpawner::Tick(float DeltaTime)
 			stage = 1;
 		}
 	}
-	else if (health >= 33 && health < 66) 
+	else if (currentHealth >= (max_health / 3) && currentHealth < (max_health / 3) * 2)
 	{
 		if (yellowMaterial) 
 		{
@@ -58,7 +62,7 @@ void AEnemySpawner::Tick(float DeltaTime)
 			stage = 2;
 		}
 	}
-	else if (health > 0 && health < 33) 
+	else if (currentHealth > 0 && currentHealth < (max_health / 3)) 
 	{
 		if (redMaterial) 
 		{
@@ -66,9 +70,17 @@ void AEnemySpawner::Tick(float DeltaTime)
 			stage = 3;
 		}
 	}
-	else if (health <= 0) 
+	else if (currentHealth <= 0) 
 	{
-		Destroy();
+		if (isMainSpawner) 
+		{
+			//Trigger End game and text?
+
+		}
+		else 
+		{
+			Destroy();
+		}
 	}
 
 
@@ -104,7 +116,13 @@ void AEnemySpawner::SpawnEnemy()
 	SpawnInfo.Owner = this;
 
 	//Spawns enemy
-	GetWorld()->SpawnActor<ABaseEnemy>(instance->enemy1BP->GeneratedClass, Location, Rotation, SpawnInfo);
+	if (instance) 
+	{
+		if (instance->enemy1BP)
+		{
+			GetWorld()->SpawnActor<ABaseEnemy>(instance->enemy1BP->GeneratedClass, Location, Rotation, SpawnInfo);
+		}
+	}
 }
 
 void AEnemySpawner::SpawnWave()
@@ -121,6 +139,6 @@ void AEnemySpawner::SpawnWave()
 
 void AEnemySpawner::TakeDamage(float damage)
 {
-	health -= damage;
+	currentHealth -= damage;
 }
 

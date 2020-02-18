@@ -1,40 +1,68 @@
 ﻿  Cleaning FortniteChapter3Editor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.dll (Access to the path 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.dll' is denied.)
   Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteChapter3).
   Creating makefile for FortniteChapter3Editor (no existing makefile)
   Parsing headers for FortniteChapter3Editor
     Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\FortniteChapter3.uproject" "D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\FortniteChapter3Editor\Development\FortniteChapter3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FortniteChapter3Editor in 7.2248469 seconds
+  Reflection code generated for FortniteChapter3Editor in 7.3714764 seconds
+  Failed to delete file 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.pdb'
+      Exception: Access to the path 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.pdb' is denied.
+  Attempting to retry...
+  Failed to delete file 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.pdb'
+      Exception: Access to the path 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.pdb' is denied.
+  Attempting to retry...
+  Failed to delete file 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.pdb'
+      Exception: Access to the path 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.pdb' is denied.
+EXEC : error : Exhausted all retries!
   Building FortniteChapter3Editor...
   Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 15 actions with 8 processes...
-    [1/15] Default.rc2
-    [2/15] SharedPCH.Engine.ShadowErrors.cpp
-    [3/15] BaseEnemy.gen.cpp
-    [4/15] FortniteChapter3.cpp
-    [5/15] FortniteChapter3.init.gen.cpp
-    [6/15] EnemySpawner.gen.cpp
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/EnemySpawner.h(51): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/EnemySpawner.h(53): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+  Building 19 actions with 8 processes...
+    [1/19] Default.rc2
+    [2/19] SharedPCH.Engine.ShadowErrors.cpp
+    [3/19] FortniteChapter3.cpp
+    [4/19] BaseEnemy.cpp
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(53): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(57): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
     D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
     D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
-    [7/15] FortniteChapter3GameMode.cpp
-    [8/15] FortniteChapter3Character.gen.cpp
-    [9/15] FortniteChapter3Character.cpp
-    [10/15] BaseEnemy.cpp
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(51): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(53): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+    [5/19] FortniteChapter3.init.gen.cpp
+    [6/19] BaseEnemy.gen.cpp
+    [7/19] FortniteChapter3GameMode.cpp
+    [8/19] FortniteChapter3Character.cpp
+    [9/19] FortniteChapter3Character.gen.cpp
+    [10/19] FortniteChapter3GameMode.gen.cpp
+    [11/19] MainEnemySpawner.gen.cpp
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(53): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(57): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
     D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
     D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
-    [11/15] FortniteChapter3GameMode.gen.cpp
-    [12/15] EnemySpawner.cpp
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(51): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(53): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/MainEnemySpawner.h(56): warning C4263: 'void AMainEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/MainEnemySpawner.h(60): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
     D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
     D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
-    [13/15] UE4Editor-FortniteChapter3.lib
+    [12/19] MainInstance.cpp
+    [13/19] MainInstance.gen.cpp
+    [14/19] EnemySpawner.gen.cpp
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/EnemySpawner.h(53): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/EnemySpawner.h(57): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
+    [15/19] MainEnemySpawner.cpp
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(53): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(57): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\MainEnemySpawner.h(56): warning C4263: 'void AMainEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\MainEnemySpawner.h(60): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
+    [16/19] EnemySpawner.cpp
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(53): warning C4263: 'void AEnemySpawner::TakeDamage(float)': member function does not override any base class virtual member function
+D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3\EnemySpawner.h(57): warning C4264: 'float AActor::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'AActor'; function is hidden
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2658): note: see declaration of 'AActor::TakeDamage'
+    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(28): note: see declaration of 'AActor'
+    [17/19] UE4Editor-FortniteChapter3.dll
+LINK : fatal error LNK1104: cannot open file 'D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Binaries\Win64\UE4Editor-FortniteChapter3.dll'
+    [18/19] UE4Editor-FortniteChapter3.lib
        Creating library D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\UE4Editor-FortniteChapter3.lib and object D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\UE4Editor-FortniteChapter3.exp
-    [14/15] UE4Editor-FortniteChapter3.dll
-       Creating library D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\UE4Editor-FortniteChapter3.suppressed.lib and object D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\UE4Editor-FortniteChapter3.suppressed.exp
-    [15/15] FortniteChapter3Editor.target
-  Total time in Parallel executor: 33.58 seconds
-  Total execution time: 44.35 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""D:\Epic Games\UE_4.24\Engine\Build\BatchFiles\Rebuild.bat" FortniteChapter3Editor Win64 Development -Project="D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\FortniteChapter3.uproject" -WaitMutex -FromMsBuild" exited with code -1.
