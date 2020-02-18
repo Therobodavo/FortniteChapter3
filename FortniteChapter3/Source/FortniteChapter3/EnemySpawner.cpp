@@ -75,7 +75,8 @@ void AEnemySpawner::Tick(float DeltaTime)
 		if (isMainSpawner) 
 		{
 			//Trigger End game and text?
-
+			UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+			//Destroy();
 		}
 		else 
 		{
@@ -137,8 +138,8 @@ void AEnemySpawner::SpawnWave()
 	}
 }
 
-void AEnemySpawner::TakeDamage(float damage)
+void AEnemySpawner::TakeDamage(float d)
 {
-	currentHealth -= damage;
+	currentHealth -= d;
 }
 

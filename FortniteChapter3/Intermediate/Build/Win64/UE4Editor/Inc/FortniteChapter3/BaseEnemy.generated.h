@@ -14,8 +14,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FORTNITECHAPTER3_BaseEnemy_generated_h
 
 #define FortniteChapter3_Source_FortniteChapter3_BaseEnemy_h_12_SPARSE_DATA
-#define FortniteChapter3_Source_FortniteChapter3_BaseEnemy_h_12_RPC_WRAPPERS
-#define FortniteChapter3_Source_FortniteChapter3_BaseEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FortniteChapter3_Source_FortniteChapter3_BaseEnemy_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_d); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeDamage(Z_Param_d); \
+		P_NATIVE_END; \
+	}
+
+
+#define FortniteChapter3_Source_FortniteChapter3_BaseEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_d); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeDamage(Z_Param_d); \
+		P_NATIVE_END; \
+	}
+
+
 #define FortniteChapter3_Source_FortniteChapter3_BaseEnemy_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseEnemy(); \

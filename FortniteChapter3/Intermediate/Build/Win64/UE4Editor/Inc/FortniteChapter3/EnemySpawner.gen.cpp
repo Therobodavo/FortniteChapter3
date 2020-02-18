@@ -83,25 +83,25 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 	{
 		struct EnemySpawner_eventTakeDamage_Parms
 		{
-			float damage;
+			float d;
 		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_damage;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_d;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::NewProp_damage = { "damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemySpawner_eventTakeDamage_Parms, damage), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::NewProp_d = { "d", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EnemySpawner_eventTakeDamage_Parms, d), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::NewProp_damage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::NewProp_d,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "EnemySpawner.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemySpawner, nullptr, "TakeDamage", nullptr, nullptr, sizeof(EnemySpawner_eventTakeDamage_Parms), Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemySpawner, nullptr, "TakeDamage", nullptr, nullptr, sizeof(EnemySpawner_eventTakeDamage_Parms), Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemySpawner_TakeDamage_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AEnemySpawner_TakeDamage()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -183,7 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemySpawner_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AEnemySpawner_SpawnEnemy, "SpawnEnemy" }, // 2715389722
 		{ &Z_Construct_UFunction_AEnemySpawner_SpawnWave, "SpawnWave" }, // 172634910
-		{ &Z_Construct_UFunction_AEnemySpawner_TakeDamage, "TakeDamage" }, // 1166263577
+		{ &Z_Construct_UFunction_AEnemySpawner_TakeDamage, "TakeDamage" }, // 1374001071
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::Class_MetaDataParams[] = {
@@ -319,7 +319,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemySpawner, 3974311217);
+	IMPLEMENT_CLASS(AEnemySpawner, 820236866);
 	template<> FORTNITECHAPTER3_API UClass* StaticClass<AEnemySpawner>()
 	{
 		return AEnemySpawner::StaticClass();

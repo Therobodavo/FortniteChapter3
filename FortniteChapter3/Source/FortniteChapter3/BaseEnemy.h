@@ -29,4 +29,6 @@ public:
 	float speed = 50;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Variables")
 	float damage = 5;
+	UFUNCTION(BlueprintCallable)
+		void TakeDamage(float d);
 };

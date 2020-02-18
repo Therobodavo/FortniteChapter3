@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFortniteChapter3_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x34CC561C,
-				0xAB13A00A,
+				0x65CA4BC4,
+				0x35D520F1,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

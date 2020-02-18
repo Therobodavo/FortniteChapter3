@@ -19,19 +19,19 @@ void ABaseEnemy::BeginPlay()
 	AEnemySpawner* spawner = Cast<AEnemySpawner>(this->GetOwner());
 	if (spawner->stage == 1) 
 	{
-		health = 100;
+		health = 30;
 		speed = 50;
 		damage = 2;
 	}
 	else if (spawner->stage == 2) 
 	{
-		health = 150;
+		health = 50;
 		speed = 60;
 		damage = 5;
 	}
 	else if (spawner->stage == 3) 
 	{
-		health = 200;
+		health = 70;
 		speed = 75;
 		damage = 8;
 	}
@@ -41,6 +41,14 @@ void ABaseEnemy::BeginPlay()
 void ABaseEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (health <= 0) 
+	{
+		Destroy();
+	}
+}
 
+void ABaseEnemy::TakeDamage(float d)
+{
+	health -= d;
 }
 

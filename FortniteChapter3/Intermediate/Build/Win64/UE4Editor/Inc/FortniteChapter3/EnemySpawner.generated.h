@@ -18,10 +18,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execTakeDamage) \
 	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_damage); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_d); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->TakeDamage(Z_Param_damage); \
+		P_THIS->TakeDamage(Z_Param_d); \
 		P_NATIVE_END; \
 	} \
  \
@@ -46,10 +46,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execTakeDamage) \
 	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_damage); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_d); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->TakeDamage(Z_Param_damage); \
+		P_THIS->TakeDamage(Z_Param_d); \
 		P_NATIVE_END; \
 	} \
  \

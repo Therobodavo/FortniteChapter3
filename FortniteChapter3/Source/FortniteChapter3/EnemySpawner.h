@@ -49,8 +49,8 @@ public:
 		int stage = 1;
 	UPROPERTY()
 		UStaticMeshComponent* spawnerMesh;
-	UFUNCTION()
-		void TakeDamage(float damage);
+	UFUNCTION(BlueprintCallable)
+		void TakeDamage(float d);
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawner")
 		bool isMainSpawner = false;
 	
