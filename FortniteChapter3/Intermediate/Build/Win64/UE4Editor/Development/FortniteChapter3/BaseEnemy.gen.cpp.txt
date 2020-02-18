@@ -1,5 +1,5 @@
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Definitions.FortniteChapter3.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/BaseEnemy.h
-D:\College Stuff\Unreal\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Inc\FortniteChapter3\BaseEnemy.generated.h
+D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Development\FortniteChapter3\Definitions.FortniteChapter3.h
+D:\Epic\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Source\FortniteChapter3/BaseEnemy.h
+D:\Graduate\Year 1-2\IGME.603\Fortnite\FortniteChapter3\FortniteChapter3\Intermediate\Build\Win64\UE4Editor\Inc\FortniteChapter3\BaseEnemy.generated.h
